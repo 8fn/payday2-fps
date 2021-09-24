@@ -1,0 +1,44 @@
+{
+	"name" : "Map-Based Optimizations",
+	"description" : "Improves and adds portals to maps to increase framerate",
+	"author" : "RedFlame",
+	"contact" : "Discord: RedFlame#3870",
+	"version" : "14",
+	"priority" : "-1",
+	"blt_version" : 2,
+	"color" : "0 0 1",
+	"hooks" : [
+		{
+			"hook_id" : "core/lib/managers/mission/coremissionmanager",
+			"script_path" : "coremissionmanager.lua"
+		},
+		{
+			"hook_id" : "core/lib/managers/coreportalmanager",
+			"script_path" : "coreportalmanager.lua"
+		},
+		{
+			"hook_id" : "core/lib/utils/dev/editor/coreworlddefinition",
+			"script_path" : "coreworlddefinition.lua"
+		},
+		{
+			"hook_id" : "core/lib/utils/dev/editor/worldholder",
+			"script_path" : "worldholder.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "menumanager.lua"
+		},
+		{
+			"hook_id" : "lib/managers/occlusionmanager",
+			"script_path" : "occlusionmanager.lua"
+		}
+	],
+	"updates" : [
+		{
+			"identifier" : "map_optimizations",
+			"host" : {
+				"meta" : "https://github.com/RedFlamer/Map-Based-Optimizations/releases/download/refs%2Fheads%2Fmain/meta.json"
+			}
+		}
+	]
+}
