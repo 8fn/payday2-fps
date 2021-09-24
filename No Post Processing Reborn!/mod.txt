@@ -1,0 +1,17 @@
+{
+	"name": "No Post Processing! + Outlines Working + No Blue Filter on Main Menu Reborn!",
+	"description": "DIsables Post Processing and Blue Filter On Main Menu, Outlines Still Working",
+	"author": "Seamlink",
+	"contact": "Shield Hater",
+	"version": "5 (Reborn)",
+    "blt_version": 2,
+    "color": "0 0 0",
+    "image": "seamlink.png",
+	"priority": 100,
+	"persist_scripts": [
+		{
+			"global": "nopostpro",
+			"script_path": "video.lua"
+		}
+	]
+}
