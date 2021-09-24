@@ -1,0 +1,6 @@
+{
+	"name" : "Lower Shadow map Mod",
+	"description" : "Lower shadow map mod is designed to bring you the balance between good fps and good visual quality. This mod will improve your game performance while also reducing your input lag",
+	"author" : "Spy, updated by Luffy",
+	"version" : "5.0"
+}
